@@ -1,0 +1,1353 @@
+{
+  "Afghanistan": {
+    "details": {
+      "confirmed": 40200,
+      "recoveries": 33614,
+      "deaths": 1492
+    }
+  },
+  "Albania": {
+    "details": {
+      "confirmed": 17055,
+      "recoveries": 10071,
+      "deaths": 451
+    }
+  },
+  "Algeria": {
+    "details": {
+      "confirmed": 54402,
+      "recoveries": 38088,
+      "deaths": 1856
+    }
+  },
+  "Andorra": {
+    "details": {
+      "confirmed": 3377,
+      "recoveries": 2057,
+      "deaths": 59
+    }
+  },
+  "Angola": {
+    "details": {
+      "confirmed": 7622,
+      "recoveries": 3030,
+      "deaths": 247
+    }
+  },
+  "Antigua and Barbuda": {
+    "details": {
+      "confirmed": 119,
+      "recoveries": 101,
+      "deaths": 3
+    }
+  },
+  "Argentina": {
+    "details": {
+      "confirmed": 989680,
+      "recoveries": 803965,
+      "deaths": 26267
+    }
+  },
+  "Armenia": {
+    "details": {
+      "confirmed": 64694,
+      "recoveries": 48104,
+      "deaths": 1081
+    }
+  },
+  "Aruba": {
+    "details": {
+      "confirmed": 4322,
+      "recoveries": 3983,
+      "deaths": 34
+    }
+  },
+  "Australia": {
+    "details": {
+      "confirmed": 27391,
+      "recoveries": 25108,
+      "deaths": 904
+    }
+  },
+  "Austria": {
+    "details": {
+      "confirmed": 64806,
+      "recoveries": 49561,
+      "deaths": 893
+    }
+  },
+  "Azerbaijan": {
+    "details": {
+      "confirmed": 44964,
+      "recoveries": 40037,
+      "deaths": 626
+    }
+  },
+  "The Bahamas": {
+    "details": {
+      "confirmed": 5703,
+      "recoveries": 3300,
+      "deaths": 122
+    }
+  },
+  "Bahrain": {
+    "details": {
+      "confirmed": 77902,
+      "recoveries": 74320,
+      "deaths": 300
+    }
+  },
+  "Bangladesh": {
+    "details": {
+      "confirmed": 388569,
+      "recoveries": 303972,
+      "deaths": 5660
+    }
+  },
+  "Barbados": {
+    "details": {
+      "confirmed": 221,
+      "recoveries": 200,
+      "deaths": 7
+    }
+  },
+  "Belarus": {
+    "details": {
+      "confirmed": 87698,
+      "recoveries": 79757,
+      "deaths": 929
+    }
+  },
+  "Belgium": {
+    "details": {
+      "confirmed": 213115,
+      "recoveries": 21074,
+      "deaths": 10392
+    }
+  },
+  "Benin": {
+    "details": {
+      "confirmed": 2496,
+      "recoveries": 2330,
+      "deaths": 41
+    }
+  },
+  "Bermuda": {
+    "details": {
+      "confirmed": 185,
+      "recoveries": 172,
+      "deaths": 9
+    }
+  },
+  "Bhutan": {
+    "details": {
+      "confirmed": 325,
+      "recoveries": 299,
+      "deaths": 0
+    }
+  },
+  "Bolivia": {
+    "details": {
+      "confirmed": 139710,
+      "recoveries": 104202,
+      "deaths": 8463
+    }
+  },
+  "Bosnia and Herzegovina": {
+    "details": {
+      "confirmed": 34112,
+      "recoveries": 24995,
+      "deaths": 984
+    }
+  },
+  "Brazil": {
+    "details": {
+      "confirmed": 5235344,
+      "recoveries": 4650030,
+      "deaths": 153905
+    }
+  },
+  "Brunei": {
+    "details": {
+      "confirmed": 147,
+      "recoveries": 143,
+      "deaths": 3
+    }
+  },
+  "Bulgaria": {
+    "details": {
+      "confirmed": 29503,
+      "recoveries": 16943,
+      "deaths": 986
+    }
+  },
+  "Burkina Faso": {
+    "details": {
+      "confirmed": 2381,
+      "recoveries": 1774,
+      "deaths": 65
+    }
+  },
+  "CAR": {
+    "details": {
+      "confirmed": 4855,
+      "recoveries": 1924,
+      "deaths": 62
+    }
+  },
+  "Cabo Verde": {
+    "details": {
+      "confirmed": 7752,
+      "recoveries": 6526,
+      "deaths": 86
+    }
+  },
+  "Cambodia": {
+    "details": {
+      "confirmed": 283,
+      "recoveries": 280,
+      "deaths": 0
+    }
+  },
+  "Cameroon": {
+    "details": {
+      "confirmed": 21441,
+      "recoveries": 20117,
+      "deaths": 423
+    }
+  },
+  "Canada": {
+    "details": {
+      "confirmed": 198148,
+      "recoveries": 167112,
+      "deaths": 9760
+    }
+  },
+  "Cape Verde": {
+    "details": {
+      "confirmed": 0,
+      "recoveries": 0,
+      "deaths": 0
+    }
+  },
+  "Cayman Islands": {
+    "details": {
+      "confirmed": 233,
+      "recoveries": 212,
+      "deaths": 1
+    }
+  },
+  "Chad": {
+    "details": {
+      "confirmed": 1379,
+      "recoveries": 1181,
+      "deaths": 93
+    }
+  },
+  "Channel Islands": {
+    "details": {
+      "confirmed": 748,
+      "recoveries": 0,
+      "deaths": 0
+    }
+  },
+  "Chile": {
+    "details": {
+      "confirmed": 491760,
+      "recoveries": 463943,
+      "deaths": 13635
+    }
+  },
+  "China": {
+    "details": {
+      "confirmed": 85672,
+      "recoveries": 80786,
+      "deaths": 4634
+    }
+  },
+  "Colombia": {
+    "details": {
+      "confirmed": 959572,
+      "recoveries": 858294,
+      "deaths": 28970
+    }
+  },
+  "Congo": {
+    "details": {
+      "confirmed": 5156,
+      "recoveries": 3887,
+      "deaths": 92
+    }
+  },
+  "Congo (Brazzaville)": {
+    "details": {
+      "confirmed": 0,
+      "recoveries": 3887,
+      "deaths": 92
+    }
+  },
+  "Costa Rica": {
+    "details": {
+      "confirmed": 95514,
+      "recoveries": 58816,
+      "deaths": 1183
+    }
+  },
+  "Ivory Coast": {
+    "details": {
+      "confirmed": 20323,
+      "recoveries": 20021,
+      "deaths": 121
+    }
+  },
+  "Croatia": {
+    "details": {
+      "confirmed": 25580,
+      "recoveries": 20053,
+      "deaths": 363
+    }
+  },
+  "Cuba": {
+    "details": {
+      "confirmed": 6220,
+      "recoveries": 5768,
+      "deaths": 125
+    }
+  },
+  "Cura\u00c3\u00a7ao": {
+    "details": {
+      "confirmed": 744,
+      "recoveries": 433,
+      "deaths": 1
+    }
+  },
+  "Cyprus": {
+    "details": {
+      "confirmed": 2644,
+      "recoveries": 1444,
+      "deaths": 25
+    }
+  },
+  "Czech Republic": {
+    "details": {
+      "confirmed": 173885,
+      "recoveries": 72134,
+      "deaths": 1422
+    }
+  },
+  "Denmark": {
+    "details": {
+      "confirmed": 35392,
+      "recoveries": 29255,
+      "deaths": 680
+    }
+  },
+  "Diamond Princess": {
+    "details": {
+      "confirmed": 712,
+      "recoveries": 659,
+      "deaths": 13
+    }
+  },
+  "Djibouti": {
+    "details": {
+      "confirmed": 5459,
+      "recoveries": 5375,
+      "deaths": 61
+    }
+  },
+  "Dominica": {
+    "details": {
+      "confirmed": 33,
+      "recoveries": 29,
+      "deaths": 0
+    }
+  },
+  "Dominican Republic": {
+    "details": {
+      "confirmed": 121347,
+      "recoveries": 98207,
+      "deaths": 2199
+    }
+  },
+  "Ecuador": {
+    "details": {
+      "confirmed": 153289,
+      "recoveries": 134187,
+      "deaths": 12387
+    }
+  },
+  "Egypt": {
+    "details": {
+      "confirmed": 105424,
+      "recoveries": 98247,
+      "deaths": 6120
+    }
+  },
+  "El Salvador": {
+    "details": {
+      "confirmed": 31666,
+      "recoveries": 27000,
+      "deaths": 922
+    }
+  },
+  "Equatorial Guinea": {
+    "details": {
+      "confirmed": 5070,
+      "recoveries": 4954,
+      "deaths": 83
+    }
+  },
+  "Eritrea": {
+    "details": {
+      "confirmed": 452,
+      "recoveries": 388,
+      "deaths": 0
+    }
+  },
+  "Estonia": {
+    "details": {
+      "confirmed": 4078,
+      "recoveries": 3211,
+      "deaths": 68
+    }
+  },
+  "Eswatini": {
+    "details": {
+      "confirmed": 5780,
+      "recoveries": 5415,
+      "deaths": 116
+    }
+  },
+  "Ethiopia": {
+    "details": {
+      "confirmed": 89137,
+      "recoveries": 42649,
+      "deaths": 1352
+    }
+  },
+  "Faeroe Islands": {
+    "details": {
+      "confirmed": 485,
+      "recoveries": 472,
+      "deaths": 0
+    }
+  },
+  "Fiji": {
+    "details": {
+      "confirmed": 32,
+      "recoveries": 30,
+      "deaths": 2
+    }
+  },
+  "Finland": {
+    "details": {
+      "confirmed": 13424,
+      "recoveries": 9100,
+      "deaths": 351
+    }
+  },
+  "France": {
+    "details": {
+      "confirmed": 897034,
+      "recoveries": 104696,
+      "deaths": 33477
+    }
+  },
+  "French Guiana": {
+    "details": {
+      "confirmed": 10243,
+      "recoveries": 9982,
+      "deaths": 69
+    }
+  },
+  "French Polynesia": {
+    "details": {
+      "confirmed": 3797,
+      "recoveries": 2844,
+      "deaths": 14
+    }
+  },
+  "Gabon": {
+    "details": {
+      "confirmed": 8881,
+      "recoveries": 8430,
+      "deaths": 54
+    }
+  },
+  "Gambia": {
+    "details": {
+      "confirmed": 3649,
+      "recoveries": 2649,
+      "deaths": 118
+    }
+  },
+  "Georgia": {
+    "details": {
+      "confirmed": 17477,
+      "recoveries": 8060,
+      "deaths": 136
+    }
+  },
+  "Germany": {
+    "details": {
+      "confirmed": 366981,
+      "recoveries": 291900,
+      "deaths": 9866
+    }
+  },
+  "Ghana": {
+    "details": {
+      "confirmed": 47310,
+      "recoveries": 46618,
+      "deaths": 310
+    }
+  },
+  "Gibraltar": {
+    "details": {
+      "confirmed": 571,
+      "recoveries": 455,
+      "deaths": 0
+    }
+  },
+  "Greece": {
+    "details": {
+      "confirmed": 25370,
+      "recoveries": 9989,
+      "deaths": 509
+    }
+  },
+  "Greenland": {
+    "details": {
+      "confirmed": 16,
+      "recoveries": 14,
+      "deaths": 0
+    }
+  },
+  "Grenada": {
+    "details": {
+      "confirmed": 27,
+      "recoveries": 24,
+      "deaths": 0
+    }
+  },
+  "Guadeloupe": {
+    "details": {
+      "confirmed": 7122,
+      "recoveries": 2199,
+      "deaths": 96
+    }
+  },
+  "Guam": {
+    "details": {
+      "confirmed": 0,
+      "recoveries": 0,
+      "deaths": 0
+    }
+  },
+  "Guatemala": {
+    "details": {
+      "confirmed": 101360,
+      "recoveries": 90610,
+      "deaths": 3530
+    }
+  },
+  "Guinea": {
+    "details": {
+      "confirmed": 11518,
+      "recoveries": 10427,
+      "deaths": 70
+    }
+  },
+  "Guyana": {
+    "details": {
+      "confirmed": 3734,
+      "recoveries": 2654,
+      "deaths": 109
+    }
+  },
+  "Haiti": {
+    "details": {
+      "confirmed": 8964,
+      "recoveries": 7213,
+      "deaths": 231
+    }
+  },
+  "Honduras": {
+    "details": {
+      "confirmed": 87594,
+      "recoveries": 34662,
+      "deaths": 2563
+    }
+  },
+  "Hong Kong": {
+    "details": {
+      "confirmed": 5242,
+      "recoveries": 4973,
+      "deaths": 105
+    }
+  },
+  "Hungary": {
+    "details": {
+      "confirmed": 46290,
+      "recoveries": 14088,
+      "deaths": 1142
+    }
+  },
+  "Iceland": {
+    "details": {
+      "confirmed": 4055,
+      "recoveries": 2804,
+      "deaths": 11
+    }
+  },
+  "India": {
+    "details": {
+      "confirmed": 7548238,
+      "recoveries": 6659895,
+      "deaths": 114642
+    }
+  },
+  "Indonesia": {
+    "details": {
+      "confirmed": 361867,
+      "recoveries": 285324,
+      "deaths": 12511
+    }
+  },
+  "Iran": {
+    "details": {
+      "confirmed": 530380,
+      "recoveries": 427400,
+      "deaths": 30375
+    }
+  },
+  "Iraq": {
+    "details": {
+      "confirmed": 426634,
+      "recoveries": 360477,
+      "deaths": 10254
+    }
+  },
+  "Ireland": {
+    "details": {
+      "confirmed": 49962,
+      "recoveries": 23364,
+      "deaths": 1852
+    }
+  },
+  "Isle of Man": {
+    "details": {
+      "confirmed": 348,
+      "recoveries": 319,
+      "deaths": 24
+    }
+  },
+  "Israel": {
+    "details": {
+      "confirmed": 303109,
+      "recoveries": 268093,
+      "deaths": 2209
+    }
+  },
+  "Italy": {
+    "details": {
+      "confirmed": 414241,
+      "recoveries": 251461,
+      "deaths": 36543
+    }
+  },
+  "Jamaica": {
+    "details": {
+      "confirmed": 8274,
+      "recoveries": 3859,
+      "deaths": 171
+    }
+  },
+  "Japan": {
+    "details": {
+      "confirmed": 92656,
+      "recoveries": 85485,
+      "deaths": 1670
+    }
+  },
+  "Jordan": {
+    "details": {
+      "confirmed": 37573,
+      "recoveries": 6912,
+      "deaths": 345
+    }
+  },
+  "Kazakhstan": {
+    "details": {
+      "confirmed": 109406,
+      "recoveries": 105001,
+      "deaths": 1768
+    }
+  },
+  "Kenya": {
+    "details": {
+      "confirmed": 44881,
+      "recoveries": 31857,
+      "deaths": 832
+    }
+  },
+  "Kosovo": {
+    "details": {
+      "confirmed": 0,
+      "recoveries": 0,
+      "deaths": 0
+    }
+  },
+  "Kuwait": {
+    "details": {
+      "confirmed": 116146,
+      "recoveries": 107860,
+      "deaths": 701
+    }
+  },
+  "Kyrgyzstan": {
+    "details": {
+      "confirmed": 52044,
+      "recoveries": 45736,
+      "deaths": 1111
+    }
+  },
+  "Latvia": {
+    "details": {
+      "confirmed": 3450,
+      "recoveries": 1329,
+      "deaths": 44
+    }
+  },
+  "Lebanon": {
+    "details": {
+      "confirmed": 62286,
+      "recoveries": 28062,
+      "deaths": 520
+    }
+  },
+  "Liberia": {
+    "details": {
+      "confirmed": 1377,
+      "recoveries": 1268,
+      "deaths": 82
+    }
+  },
+  "Liechtenstein": {
+    "details": {
+      "confirmed": 224,
+      "recoveries": 132,
+      "deaths": 1
+    }
+  },
+  "Lithuania": {
+    "details": {
+      "confirmed": 7521,
+      "recoveries": 3097,
+      "deaths": 113
+    }
+  },
+  "Luxembourg": {
+    "details": {
+      "confirmed": 10888,
+      "recoveries": 8468,
+      "deaths": 133
+    }
+  },
+  "Madagascar": {
+    "details": {
+      "confirmed": 16810,
+      "recoveries": 16215,
+      "deaths": 238
+    }
+  },
+  "Malaysia": {
+    "details": {
+      "confirmed": 20498,
+      "recoveries": 13262,
+      "deaths": 187
+    }
+  },
+  "Maldives": {
+    "details": {
+      "confirmed": 11210,
+      "recoveries": 10164,
+      "deaths": 37
+    }
+  },
+  "Malta": {
+    "details": {
+      "confirmed": 4628,
+      "recoveries": 3236,
+      "deaths": 45
+    }
+  },
+  "Martinique": {
+    "details": {
+      "confirmed": 2257,
+      "recoveries": 98,
+      "deaths": 24
+    }
+  },
+  "Mauritania": {
+    "details": {
+      "confirmed": 7608,
+      "recoveries": 7347,
+      "deaths": 163
+    }
+  },
+  "Mauritius": {
+    "details": {
+      "confirmed": 417,
+      "recoveries": 364,
+      "deaths": 10
+    }
+  },
+  "Mayotte": {
+    "details": {
+      "confirmed": 4030,
+      "recoveries": 2964,
+      "deaths": 43
+    }
+  },
+  "Mexico": {
+    "details": {
+      "confirmed": 847108,
+      "recoveries": 615680,
+      "deaths": 86059
+    }
+  },
+  "Moldova": {
+    "details": {
+      "confirmed": 67050,
+      "recoveries": 47842,
+      "deaths": 1584
+    }
+  },
+  "Monaco": {
+    "details": {
+      "confirmed": 265,
+      "recoveries": 217,
+      "deaths": 2
+    }
+  },
+  "Mongolia": {
+    "details": {
+      "confirmed": 324,
+      "recoveries": 312,
+      "deaths": 0
+    }
+  },
+  "Montenegro": {
+    "details": {
+      "confirmed": 15615,
+      "recoveries": 10994,
+      "deaths": 236
+    }
+  },
+  "Montserrat": {
+    "details": {
+      "confirmed": 13,
+      "recoveries": 12,
+      "deaths": 1
+    }
+  },
+  "Morocco": {
+    "details": {
+      "confirmed": 173632,
+      "recoveries": 143972,
+      "deaths": 2928
+    }
+  },
+  "Mozambique": {
+    "details": {
+      "confirmed": 10866,
+      "recoveries": 8513,
+      "deaths": 75
+    }
+  },
+  "Namibia": {
+    "details": {
+      "confirmed": 12293,
+      "recoveries": 10422,
+      "deaths": 131
+    }
+  },
+  "Nepal": {
+    "details": {
+      "confirmed": 132246,
+      "recoveries": 92166,
+      "deaths": 739
+    }
+  },
+  "Netherlands": {
+    "details": {
+      "confirmed": 228234,
+      "recoveries": 0,
+      "deaths": 6751
+    }
+  },
+  "New Caledonia": {
+    "details": {
+      "confirmed": 27,
+      "recoveries": 27,
+      "deaths": 0
+    }
+  },
+  "New Zealand": {
+    "details": {
+      "confirmed": 1886,
+      "recoveries": 1819,
+      "deaths": 25
+    }
+  },
+  "Nicaragua": {
+    "details": {
+      "confirmed": 5353,
+      "recoveries": 4225,
+      "deaths": 154
+    }
+  },
+  "Niger": {
+    "details": {
+      "confirmed": 1210,
+      "recoveries": 1126,
+      "deaths": 69
+    }
+  },
+  "Nigeria": {
+    "details": {
+      "confirmed": 61440,
+      "recoveries": 56611,
+      "deaths": 1125
+    }
+  },
+  "North Macedonia": {
+    "details": {
+      "confirmed": 23628,
+      "recoveries": 17239,
+      "deaths": 834
+    }
+  },
+  "Norway": {
+    "details": {
+      "confirmed": 16457,
+      "recoveries": 11863,
+      "deaths": 278
+    }
+  },
+  "Oman": {
+    "details": {
+      "confirmed": 109953,
+      "recoveries": 95624,
+      "deaths": 1101
+    }
+  },
+  "Pakistan": {
+    "details": {
+      "confirmed": 323019,
+      "recoveries": 307069,
+      "deaths": 6654
+    }
+  },
+  "Panama": {
+    "details": {
+      "confirmed": 124745,
+      "recoveries": 101041,
+      "deaths": 2564
+    }
+  },
+  "Papua New Guinea": {
+    "details": {
+      "confirmed": 581,
+      "recoveries": 540,
+      "deaths": 7
+    }
+  },
+  "Paraguay": {
+    "details": {
+      "confirmed": 54724,
+      "recoveries": 36068,
+      "deaths": 1188
+    }
+  },
+  "Peru": {
+    "details": {
+      "confirmed": 868675,
+      "recoveries": 779779,
+      "deaths": 33759
+    }
+  },
+  "Philippines": {
+    "details": {
+      "confirmed": 356618,
+      "recoveries": 310158,
+      "deaths": 6652
+    }
+  },
+  "Poland": {
+    "details": {
+      "confirmed": 175766,
+      "recoveries": 92651,
+      "deaths": 3573
+    }
+  },
+  "Portugal": {
+    "details": {
+      "confirmed": 99911,
+      "recoveries": 59000,
+      "deaths": 2181
+    }
+  },
+  "Puerto Rico": {
+    "details": {
+      "confirmed": 0,
+      "recoveries": 0,
+      "deaths": 0
+    }
+  },
+  "Qatar": {
+    "details": {
+      "confirmed": 129431,
+      "recoveries": 126406,
+      "deaths": 224
+    }
+  },
+  "Republic of the Congo": {
+    "details": {
+      "confirmed": 0,
+      "recoveries": 0,
+      "deaths": 0
+    }
+  },
+  "Reunion": {
+    "details": {
+      "confirmed": 4776,
+      "recoveries": 4445,
+      "deaths": 17
+    }
+  },
+  "Romania": {
+    "details": {
+      "confirmed": 180388,
+      "recoveries": 130894,
+      "deaths": 5872
+    }
+  },
+  "Russia": {
+    "details": {
+      "confirmed": 1399334,
+      "recoveries": 1070576,
+      "deaths": 24187
+    }
+  },
+  "Rwanda": {
+    "details": {
+      "confirmed": 4974,
+      "recoveries": 4783,
+      "deaths": 34
+    }
+  },
+  "Saint Lucia": {
+    "details": {
+      "confirmed": 33,
+      "recoveries": 27,
+      "deaths": 0
+    }
+  },
+  "San Marino": {
+    "details": {
+      "confirmed": 759,
+      "recoveries": 685,
+      "deaths": 42
+    }
+  },
+  "Saudi Arabia": {
+    "details": {
+      "confirmed": 342202,
+      "recoveries": 328538,
+      "deaths": 5185
+    }
+  },
+  "Senegal": {
+    "details": {
+      "confirmed": 15418,
+      "recoveries": 13814,
+      "deaths": 317
+    }
+  },
+  "Serbia": {
+    "details": {
+      "confirmed": 36160,
+      "recoveries": 31536,
+      "deaths": 776
+    }
+  },
+  "Seychelles": {
+    "details": {
+      "confirmed": 149,
+      "recoveries": 148,
+      "deaths": 0
+    }
+  },
+  "Singapore": {
+    "details": {
+      "confirmed": 57911,
+      "recoveries": 57807,
+      "deaths": 28
+    }
+  },
+  "Sint Maarten": {
+    "details": {
+      "confirmed": 753,
+      "recoveries": 669,
+      "deaths": 22
+    }
+  },
+  "Slovakia": {
+    "details": {
+      "confirmed": 29835,
+      "recoveries": 7359,
+      "deaths": 88
+    }
+  },
+  "Slovenia": {
+    "details": {
+      "confirmed": 13142,
+      "recoveries": 6313,
+      "deaths": 188
+    }
+  },
+  "Somalia": {
+    "details": {
+      "confirmed": 3864,
+      "recoveries": 3089,
+      "deaths": 99
+    }
+  },
+  "South Africa": {
+    "details": {
+      "confirmed": 703793,
+      "recoveries": 634543,
+      "deaths": 18471
+    }
+  },
+  "South Korea": {
+    "details": {
+      "confirmed": 25199,
+      "recoveries": 23312,
+      "deaths": 444
+    }
+  },
+  "Spain": {
+    "details": {
+      "confirmed": 982723,
+      "recoveries": 0,
+      "deaths": 33775
+    }
+  },
+  "Sri Lanka": {
+    "details": {
+      "confirmed": 5538,
+      "recoveries": 3403,
+      "deaths": 13
+    }
+  },
+  "St Martin": {
+    "details": {
+      "confirmed": 0,
+      "recoveries": 0,
+      "deaths": 0
+    }
+  },
+  "St. Barth": {
+    "details": {
+      "confirmed": 72,
+      "recoveries": 55,
+      "deaths": 0
+    }
+  },
+  "St. Vincent Grenadines": {
+    "details": {
+      "confirmed": 67,
+      "recoveries": 64,
+      "deaths": 0
+    }
+  },
+  "Sudan": {
+    "details": {
+      "confirmed": 13697,
+      "recoveries": 6764,
+      "deaths": 836
+    }
+  },
+  "Suriname": {
+    "details": {
+      "confirmed": 5130,
+      "recoveries": 4944,
+      "deaths": 109
+    }
+  },
+  "Sweden": {
+    "details": {
+      "confirmed": 103200,
+      "recoveries": 0,
+      "deaths": 5918
+    }
+  },
+  "Switzerland": {
+    "details": {
+      "confirmed": 74422,
+      "recoveries": 50600,
+      "deaths": 2123
+    }
+  },
+  "Syria": {
+    "details": {
+      "confirmed": 5077,
+      "recoveries": 1528,
+      "deaths": 248
+    }
+  },
+  "Taiwan": {
+    "details": {
+      "confirmed": 535,
+      "recoveries": 491,
+      "deaths": 7
+    }
+  },
+  "Tanzania": {
+    "details": {
+      "confirmed": 509,
+      "recoveries": 183,
+      "deaths": 21
+    }
+  },
+  "Thailand": {
+    "details": {
+      "confirmed": 3686,
+      "recoveries": 3481,
+      "deaths": 59
+    }
+  },
+  "Timor-Leste": {
+    "details": {
+      "confirmed": 29,
+      "recoveries": 28,
+      "deaths": 0
+    }
+  },
+  "Togo": {
+    "details": {
+      "confirmed": 2057,
+      "recoveries": 1531,
+      "deaths": 51
+    }
+  },
+  "Trinidad and Tobago": {
+    "details": {
+      "confirmed": 5297,
+      "recoveries": 3652,
+      "deaths": 96
+    }
+  },
+  "Tunisia": {
+    "details": {
+      "confirmed": 40542,
+      "recoveries": 5032,
+      "deaths": 626
+    }
+  },
+  "Turkey": {
+    "details": {
+      "confirmed": 347493,
+      "recoveries": 304003,
+      "deaths": 9296
+    }
+  },
+  "United Arab Emirates": {
+    "details": {
+      "confirmed": 115602,
+      "recoveries": 107516,
+      "deaths": 463
+    }
+  },
+  "United Kingdom": {
+    "details": {
+      "confirmed": 722409,
+      "recoveries": 0,
+      "deaths": 43646
+    }
+  },
+  "United States of America": {
+    "details": {
+      "confirmed": 8387799,
+      "recoveries": 5457684,
+      "deaths": 224730
+    }
+  },
+  "Uganda": {
+    "details": {
+      "confirmed": 10590,
+      "recoveries": 6992,
+      "deaths": 97
+    }
+  },
+  "Ukraine": {
+    "details": {
+      "confirmed": 298872,
+      "recoveries": 125377,
+      "deaths": 5607
+    }
+  },
+  "Uruguay": {
+    "details": {
+      "confirmed": 2531,
+      "recoveries": 2105,
+      "deaths": 51
+    }
+  },
+  "Uzbekistan": {
+    "details": {
+      "confirmed": 63124,
+      "recoveries": 60080,
+      "deaths": 525
+    }
+  },
+  "Vatican City": {
+    "details": {
+      "confirmed": 27,
+      "recoveries": 15,
+      "deaths": 0
+    }
+  },
+  "Venezuela": {
+    "details": {
+      "confirmed": 86636,
+      "recoveries": 79694,
+      "deaths": 736
+    }
+  },
+  "Vietnam": {
+    "details": {
+      "confirmed": 1134,
+      "recoveries": 1031,
+      "deaths": 35
+    }
+  },
+  "Zambia": {
+    "details": {
+      "confirmed": 15853,
+      "recoveries": 15005,
+      "deaths": 346
+    }
+  },
+  "Zimbabwe": {
+    "details": {
+      "confirmed": 8147,
+      "recoveries": 7678,
+      "deaths": 231
+    }
+  }
+}
