@@ -1,41 +1,80 @@
 import React, { useRef, useEffect } from 'react';
 import Globe from 'globe.gl';
-import { scaleSequential } from 'd3-scale';
-import { interpolateRgb } from 'd3-interpolate';
+import * as d3 from 'd3';
+import { numberWithCommas } from '../index';
 
-const GlobeComponent = ({ countriesData, covidData }) => {
+const GlobeComponent = ({ countriesData, covidLatestData }) => {
+  const globeContainer = document.getElementById('root');
   const globeEl = useRef();
+  const colorScale = d3.scaleSequentialPow(d3.interpolateYlOrRd).exponent(1 / 4);
+  const getVal = feat => {
+    if (covidLatestData[feat.properties.ADMIN]) {
+      return covidLatestData[feat.properties.ADMIN].details.confirmed / feat.properties.POP_EST;
+    } else {
+      return 0; // Default value
+    }
+  };
+  let flagName;
+  const flagEndpoint = 'https://corona.lmao.ninja/assets/img/flags';
 
   useEffect(() => {
-    if (countriesData.length === 0 || Object.keys(covidData).length === 0) return;
+    if (!countriesData || countriesData.length === 0) return;
 
-    // Create color scale
-    const colorScale = scaleSequential(interpolateRgb("blue", "red")).domain([0, 1000000]); // Adjust domain to suit your data
+    const maxVal = Math.max(...countriesData.map(getVal));
+    colorScale.domain([0, maxVal]);
 
-    const globe = Globe()(globeEl.current)
+    // Add COVID-19 visualizer HTML line
+    const covidVisualizerHTML = document.createElement('div');
+    covidVisualizerHTML.innerHTML = '<h1 style="position: absolute; top: 10px; color: white;">COVID-19 Visualizer</h1>';
+    globeContainer.appendChild(covidVisualizerHTML);
+
+    const globe = Globe()
       .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-      .polygonsData(countriesData)
-      .polygonAltitude(0.1)
-      .polygonCapColor(d => {
-        const countryName = d.properties.NAME;
-        if (covidData.hasOwnProperty(countryName)) {
-          const countryDetails = covidData[countryName].details;
-          return colorScale(countryDetails.confirmed); // Use color scale to set color based on confirmed cases
-        } else {
-          return 'gray'; // Default color for countries not in covidData
-        }
-      })
+      .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+      .showGraticules(false)
+      .lineHoverPrecision(0)
+      .polygonsData(countriesData.filter(d => d.properties.ISO_A2 !== 'AQ'))
+      .polygonAltitude(0.06)
+      .polygonCapColor(feat => colorScale(getVal(feat)))
+      .polygonSideColor(() => 'rgba(0, 100, 0, 0.15)')
       .polygonStrokeColor(() => '#111')
-      .pointAltitude('size')
-      .pointColor('color')
-      .onPointHover(point => console.log(point))
-      .onPointClick(point => console.log(point));
+      .polygonLabel(({ properties: d }) => {
+        const countryName = d.ADMIN;
+        const covidDetails = covidLatestData[countryName]?.details || { confirmed: 0, deaths: 0, recoveries: 0 };
+        const population = d.POP_EST;
+        const covidData = { ...covidDetails, population };
+        if (d.ADMIN === 'France') {
+          flagName = 'fr';
+        } else if (d.ADMIN === 'Norway') {
+          flagName = 'no';
+        } else {
+          flagName = d.ISO_A2.toLowerCase();
+        }
 
-    // Clean up function
-    return () => {
-      globe.resetProps(); // Reset props to avoid memory leaks
-    };
-  }, [countriesData, covidData]);
+        return `
+          <div class="card">
+            <img class="card-img" src="${flagEndpoint}/${flagName}.png" alt="flag" />
+            <div class="container">
+              <span class="card-title"><b>${d.NAME}</b></span> <br />
+              <div class="card-spacer"></div>
+              <hr />
+              <div class="card-spacer"></div>
+              <span>Cases: ${numberWithCommas(covidData.confirmed)}</span>  <br />
+              <span>Deaths: ${numberWithCommas(covidData.deaths)}</span> <br />
+              <span>Recovered: ${numberWithCommas(covidData.recoveries)}</span> <br />
+              <span>Population: ${d3.format('.3s')(covidData.population)}</span>
+            </div>
+          </div>
+        `;
+      })
+      .onPolygonHover(hoverD => {
+        globe
+          .polygonAltitude(d => (d === hoverD ? 0.12 : 0.06))
+          .polygonCapColor(d => (d === hoverD ? 'steelblue' : colorScale(getVal(d))))
+      })
+      .polygonsTransitionDuration(300)
+      (globeContainer);
+  }, [countriesData, covidLatestData]);
 
   return <div ref={globeEl} />;
 };

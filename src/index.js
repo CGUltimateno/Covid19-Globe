@@ -9,3 +9,10 @@ root.render(
     <App />
   </React.StrictMode>
 );
+export function numberWithCommas(x) {
+  if (typeof x !== 'undefined' && x !== null) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  }
+  // Return an appropriate value when x is undefined or null
+  return '';
+}
