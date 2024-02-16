@@ -17,7 +17,7 @@ function App() {
       .catch(error => console.error('Error fetching countries data:', error));
 
     // Fetch latest covid data
-    fetch('/latest.json')
+    fetch('//https://raw.githubusercontent.com/CGUltimateno/Covid19-Globe/master/public/latest.json')
       .then(response => response.json())
       .then(data => {
         setCovidLatestData(data);
