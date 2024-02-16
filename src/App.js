@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import GlobeComponent from './components/Globe';
 import LandingPage from './components/landingpage';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {BrowserRouter as Router, Navigate, Route, Routes} from 'react-router-dom';
 
 function App() {
   const [countriesData, setCountriesData] = useState([]);
@@ -17,7 +17,7 @@ function App() {
       .catch(error => console.error('Error fetching countries data:', error));
 
     // Fetch latest covid data
-    fetch('//https://raw.githubusercontent.com/CGUltimateno/Covid19-Globe/master/public/latest.json')
+    fetch('https://raw.githubusercontent.com/CGUltimateno/Covid19-Globe/master/public/latest.json')
       .then(response => response.json())
       .then(data => {
         setCovidLatestData(data);
@@ -25,11 +25,12 @@ function App() {
       .catch(error => console.error('Error fetching latest covid data:', error));
   }, []);
 
- return (
+  return (
     <Router>
       <Routes>
         <Route path="/globe" element={<GlobeComponent countriesData={countriesData} covidLatestData={covidLatestData} />} />
         <Route path="/" element={<LandingPage />} />
+        <Route path="/Covid19-Globe" element={<Navigate to="/" />} />
       </Routes>
     </Router>
   );
