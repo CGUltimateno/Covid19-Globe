@@ -11,11 +11,15 @@ body {
 .paragraph {
   max-width: 1200px; /* Set your desired max-width */
   margin: 0 auto; /* Center the content */
+      color: #fff;
+
 }
 
 .featureparagraph{
   max-width: 1200px; /* Set your desired max-width */
   margin: 0 auto 100px;
+    color: #fff;
+
 }
 header {
   color: #fff;
@@ -58,6 +62,10 @@ header {
     margin-top: 100px;
     margin-bottom: 20px;
 
+}
+
+.color{
+      color: #fff;
 }
 .header-button {
   display: inline-flex;

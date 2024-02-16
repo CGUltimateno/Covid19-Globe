@@ -13,7 +13,7 @@ const LandingPage = () => {
 
           <section className="cover-section">
               <div className="left-content">
-                  <h2 className="covertitle">Welcome to the COVID-19 Visualizer</h2>
+                  <h2 className="covertitle color">Welcome to the COVID-19 Visualizer</h2>
               </div>
               <div className="cta-button-container">
                   <a className="header-button" href="/globe">Explore Now</a>
@@ -22,7 +22,7 @@ const LandingPage = () => {
 
 <section className="about-me">
   <div className="section-content">
-    <h2>About Me</h2>
+    <h2 className="color">About Me</h2>
       <p className="paragraph">
           Hello! I'm Mohamed Daif, the developer behind the COVID-19 Visualizer. With a passion for technology and a
           commitment to making a positive impact, I embarked on this project to provide a unique and informative way to
@@ -45,11 +45,11 @@ const LandingPage = () => {
           <section className="feature-section">
               <div className="section-content">
                   <br></br>
-                  <h2>Key Features</h2>
+                  <h2 className="color">Key Features</h2>
 
                   <div className="feature">
                       <img src={require('../assets/feature1.PNG')} alt="Feature 1"/>
-                      <h3>Explore the global impact of COVID-19 through an interactive 3D globe.</h3>
+                      <h2 className="color">Explore the global impact of COVID-19 through an interactive 3D globe.</h2>
                       <p className="featureparagraph">
                           Dive into detailed case data per country displayed through a dynamic color spectrum. Hover
                           over regions for pop-up windows revealing confirmed cases, deaths, recoveries, and population
@@ -62,7 +62,7 @@ const LandingPage = () => {
 
                   <div className="feature">
                       <img src={require('../assets/feature2.PNG')} alt="Feature 1"/>
-                      <h3>Learn more about the global impact of COVID-19 to each country through the country cards</h3>
+                      <h2 className="color">Learn more about the global impact of COVID-19 to each country through the country cards</h2>
                       <p className="featureparagraph">
                           By hovering over a country, you can view a pop-up card with more detailed information, such as
                           the total number of confirmed cases, deaths, recoveries, and population. This allows you to
@@ -73,8 +73,8 @@ const LandingPage = () => {
           </section>
           <section className="github-repo">
               <div className="section-content">
-                  <h2>GitHub Repository</h2>
-                  <p>
+                  <h2 className="color">GitHub Repository</h2>
+                  <p className="featureparagraph">
                       If you're interested in the code, check out the GitHub repository.
                   </p>
                   <a className="cta-button" href="https://github.com/CGUltimateno/Covid19-Globe" target="_blank"
