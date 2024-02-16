@@ -62,7 +62,7 @@ const LandingPage = () => {
 
                   <div className="feature">
                       <img src={require('../assets/feature2.PNG')} alt="Feature 1"/>
-                      <h3>Feature 2</h3>
+                      <h3>Learn more about the global impact of COVID-19 to each country through the country cards</h3>
                       <p className="featureparagraph">
                           By hovering over a country, you can view a pop-up card with more detailed information, such as
                           the total number of confirmed cases, deaths, recoveries, and population. This allows you to
