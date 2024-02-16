@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import GlobeComponent from './components/Globe';
+import LandingPage from './components/landingpage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   const [countriesData, setCountriesData] = useState([]);
@@ -23,10 +25,13 @@ function App() {
       .catch(error => console.error('Error fetching latest covid data:', error));
   }, []);
 
-  return (
-    <div className="App">
-        <GlobeComponent countriesData={countriesData} covidLatestData={covidLatestData} />
-    </div>
+ return (
+    <Router>
+      <Routes>
+        <Route path="/globe" element={<GlobeComponent countriesData={countriesData} covidLatestData={covidLatestData} />} />
+        <Route path="/" element={<LandingPage />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,12 +1,18 @@
 import React, { useRef, useEffect } from 'react';
 import Globe from 'globe.gl';
 import * as d3 from 'd3';
+import { useNavigate } from 'react-router-dom';
 import { numberWithCommas } from '../index';
 
 const GlobeComponent = ({ countriesData, covidLatestData }) => {
   const globeContainer = document.getElementById('root');
   const globeEl = useRef();
   const colorScale = d3.scaleSequentialPow(d3.interpolateYlOrRd).exponent(1 / 4);
+  const navigate = useNavigate();
+
+    const goBack = () => { // Add this function
+    navigate('/');
+  };
   const getVal = feat => {
     if (covidLatestData[feat.properties.ADMIN]) {
       return covidLatestData[feat.properties.ADMIN].details.confirmed / feat.properties.POP_EST;
@@ -76,7 +82,15 @@ const GlobeComponent = ({ countriesData, covidLatestData }) => {
       (globeContainer);
   }, [countriesData, covidLatestData]);
 
-  return <div ref={globeEl} />;
+  return (
+      <div>
+          <div className="top-info-container">
+              <div className="title">COVID-19 Visualizer</div>
+              <button id="back-button" className="back-button" onClick={goBack}>Back</button>
+          </div>
+          <div ref={globeEl}/>
+      </div>
+  );
 };
 
 export default GlobeComponent;

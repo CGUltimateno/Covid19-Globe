@@ -1,18 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
 import App from './App';
+import './styles/index.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 export function numberWithCommas(x) {
   if (typeof x !== 'undefined' && x !== null) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
   }
-  // Return an appropriate value when x is undefined or null
   return '';
 }
