@@ -6,16 +6,17 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 :global(.top-info-container) {
+  position: fixed; /* Change to fixed instead of absolute */
   top: 20px;
   text-align: center;
   width: 100%;
   z-index: 9999;
+  overflow: hidden;
 }
-
-/* Add more :global selectors as needed */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -23,13 +24,14 @@ code {
 }
 .card {
   font-family: 'Space Mono', monospace;
-  background-color: white;
+  background-color: #18324a;
   width: 250px;
   border: 2px solid #000000;
   border-radius: 20px;
 }
 
 .title {
+  color: white;
   font-size: 35px;
   font-family: monospace;
   font-weight: bold;

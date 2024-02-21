@@ -1,41 +1,80 @@
 /* landingpage.css */
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-    background-color: #212121;
+    background: url('//unpkg.com/three-globe/example/img/night-sky.png') center/cover no-repeat;
+}
+
+body, header {
+  margin: 0;
+    padding: 0;
 }
 
 .landing-page {
   text-align: center;
 }
 .paragraph {
-  max-width: 1200px; /* Set your desired max-width */
-  margin: 0 auto; /* Center the content */
-      color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+    color: #fff;
 
 }
 
 .featureparagraph{
-  max-width: 1200px; /* Set your desired max-width */
+  max-width: 1200px;
   margin: 0 auto 100px;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.sectitle{
+    font-size: 40px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    text-align: center;
     color: #fff;
 
 }
 header {
   color: #fff;
+    background-color: #000000;
 }
 
 .header-content {
   text-align: center;
-  margin-left: 20px;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #fff;
+    padding: 0;
+  font-family: Lato, sans-serif;
 }
 
-/* Add specific class for the cover section */
+nav {
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+    padding: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
 .cover-section {
   display: flex;
-  background: url('//unpkg.com/three-globe/example/img/night-sky.png') center/cover no-repeat;
-  padding: 100px;
+
   overflow-y: auto;
   color: #fff;
 }
@@ -50,8 +89,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: auto;
-  margin-right: 200px; /* Adjust margin as needed */
+  margin-left: 300px;
+  margin-right: 200px;
 }
 
 .covertitle{
@@ -59,6 +98,7 @@ header {
     font-family: 'Space Mono', monospace;
     font-weight: bold;
     text-align: center;
+    margin-left: 150px;
     margin-top: 100px;
     margin-bottom: 20px;
 
@@ -107,4 +147,3 @@ header {
   bottom: 0;
   width: 100%;
 }
-/* Add more styles as needed */

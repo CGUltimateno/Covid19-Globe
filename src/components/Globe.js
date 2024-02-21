@@ -5,14 +5,14 @@ import { useNavigate } from 'react-router-dom';
 import { numberWithCommas } from '../index';
 
 const GlobeComponent = ({ countriesData, covidLatestData }) => {
-  const globeContainer = document.getElementById('root');
   const globeEl = useRef();
   const colorScale = d3.scaleSequentialPow(d3.interpolateYlOrRd).exponent(1 / 4);
   const navigate = useNavigate();
 
-    const goBack = () => { // Add this function
-    navigate('/');
+  const goBack = () => {
+    navigate('/Covid19-Globe');
   };
+
   const getVal = feat => {
     if (covidLatestData[feat.properties.ADMIN]) {
       return covidLatestData[feat.properties.ADMIN].details.confirmed / feat.properties.POP_EST;
@@ -20,6 +20,7 @@ const GlobeComponent = ({ countriesData, covidLatestData }) => {
       return 0; // Default value
     }
   };
+
   let flagName;
   const flagEndpoint = 'https://corona.lmao.ninja/assets/img/flags';
 
@@ -28,11 +29,6 @@ const GlobeComponent = ({ countriesData, covidLatestData }) => {
 
     const maxVal = Math.max(...countriesData.map(getVal));
     colorScale.domain([0, maxVal]);
-
-    // Add COVID-19 visualizer HTML line
-    const covidVisualizerHTML = document.createElement('div');
-    covidVisualizerHTML.innerHTML = '<h1 style="position: absolute; top: 10px; color: white;">COVID-19 Visualizer</h1>';
-    globeContainer.appendChild(covidVisualizerHTML);
 
     const globe = Globe()
       .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
@@ -79,14 +75,15 @@ const GlobeComponent = ({ countriesData, covidLatestData }) => {
           .polygonCapColor(d => (d === hoverD ? 'steelblue' : colorScale(getVal(d))))
       })
       .polygonsTransitionDuration(300)
-      (globeContainer);
+      (globeEl.current);
   }, [countriesData, covidLatestData]);
 
   return (
       <div>
           <div className="top-info-container">
-              <div className="title">COVID-19 Visualizer</div>
-              <button id="back-button" className="back-button" onClick={goBack}>Back</button>
+              <button id="back-button" className="back-button" onClick={goBack}>
+                  Back
+              </button>
           </div>
           <div ref={globeEl}/>
       </div>
