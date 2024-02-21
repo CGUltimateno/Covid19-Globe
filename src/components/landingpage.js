@@ -24,7 +24,7 @@ const LandingPage = () => {
                   <h2 className="covertitle color">Welcome to the COVID-19 Visualizer</h2>
               </div>
               <div className="cta-button-container">
-                  <a className="header-button" href="/Covid19-Globe/globe">Explore Now</a>
+                  <a className="header-button" href="/Covid19-Globe/#/globe">Explore Now</a>
               </div>
           </section>
 

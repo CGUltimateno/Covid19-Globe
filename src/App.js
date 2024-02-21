@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/Covid19-Globe/globe" element={<GlobeComponent countriesData={countriesData} covidLatestData={covidLatestData} />} />
+        <Route path="/Covid19-Globe/#/globe" element={<GlobeComponent countriesData={countriesData} covidLatestData={covidLatestData} />} />
         <Route path="/Covid19-Globe" element={<LandingPage />} />
         <Route path="/Covid19-Globe" element={<Navigate to="/" />} />
       </Routes>
