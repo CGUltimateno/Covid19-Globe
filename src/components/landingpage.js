@@ -1,7 +1,7 @@
 // LandingPage.js
 import React from 'react';
 import '../styles/landingpage.css';
-
+import { Link } from 'react-scroll';
 const LandingPage = () => {
   return (
       <div className="landing-page">
@@ -10,10 +10,10 @@ const LandingPage = () => {
                   <h1>COVID-19 Visualizer</h1>
                   <nav>
                       <ul>
-                          <li><a href="#cover-section">Home</a></li>
-                          <li><a href="#about-me">About Me</a></li>
-                          <li><a href="#feature-section">Key Features</a></li>
-                          <li><a href="#github-repo">GitHub Repository</a></li>
+                          <li><Link to="cover-section" smooth={true}>Home</Link></li>
+                          <li><Link to="about-me" smooth={true}>About Me</Link></li>
+                          <li><Link to="feature-section" smooth={true}>Key Features</Link></li>
+                          <li><Link to="github-repo" smooth={true}>GitHub Repository</Link></li>
                       </ul>
                   </nav>
               </div>
