@@ -4,7 +4,7 @@
 COVID-19 Visualization is an interactive globe visualization that presents real-time COVID-19 data in a visually appealing way. Explore the global impact of the pandemic, view country-specific details on hover, and gain insights into the confirmed cases, deaths, and recoveries.
 
 ## Demo
-Live demo is still being developed.
+(https://cgultimateno.github.io/Covid19-Globe/)
 
 ## Features
 - Interactive 3D globe representation of COVID-19 data.
