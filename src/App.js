@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import GlobeComponent from './components/Globe';
 import LandingPage from './components/landingpage';
-import {BrowserRouter as Router, Navigate, Route, Routes} from 'react-router-dom';
+import {HashRouter as Router, Navigate, Route, Routes} from 'react-router-dom';
 
 function App() {
   const [countriesData, setCountriesData] = useState([]);
@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/Covid19-Globe/#/globe" element={<GlobeComponent countriesData={countriesData} covidLatestData={covidLatestData} />} />
+        <Route path="/Covid19-Globe/globe" element={<GlobeComponent countriesData={countriesData} covidLatestData={covidLatestData} />} />
         <Route path="/Covid19-Globe" element={<LandingPage />} />
         <Route path="/Covid19-Globe" element={<Navigate to="/" />} />
       </Routes>
