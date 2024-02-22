@@ -10,7 +10,7 @@ const GlobeComponent = ({ countriesData, covidLatestData }) => {
   const navigate = useNavigate();
 
   const goBack = () => {
-    navigate('/Covid19-Globe');
+    navigate('/');
   };
 
   const getVal = feat => {

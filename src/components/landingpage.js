@@ -1,7 +1,8 @@
 // LandingPage.js
 import React from 'react';
 import '../styles/landingpage.css';
-import { Link } from 'react-scroll';
+import { Link as LinkRouter } from 'react-router-dom';
+import { Link as LinkScroll } from 'react-scroll';
 const LandingPage = () => {
   return (
       <div className="landing-page">
@@ -10,10 +11,10 @@ const LandingPage = () => {
                   <h1>COVID-19 Visualizer</h1>
                   <nav>
                       <ul>
-                          <li><Link to="cover-section" smooth={true}>Home</Link></li>
-                          <li><Link to="about-me" smooth={true}>About Me</Link></li>
-                          <li><Link to="feature-section" smooth={true}>Key Features</Link></li>
-                          <li><Link to="github-repo" smooth={true}>GitHub Repository</Link></li>
+                          <li><LinkScroll to="cover-section" smooth={true}>Home</LinkScroll></li>
+                          <li><LinkScroll to="about-me" smooth={true}>About Me</LinkScroll></li>
+                          <li><LinkScroll to="feature-section" smooth={true}>Key Features</LinkScroll></li>
+                          <li><LinkScroll to="github-repo" smooth={true}>GitHub Repository</LinkScroll></li>
                       </ul>
                   </nav>
               </div>
@@ -24,7 +25,7 @@ const LandingPage = () => {
                   <h2 className="covertitle color">Welcome to the COVID-19 Visualizer</h2>
               </div>
               <div className="cta-button-container">
-                  <a className="header-button" href="/Covid19-Globe/#/globe">Explore Now</a>
+                  <LinkRouter className="header-button" to="/globe">Explore Now</LinkRouter>
               </div>
           </section>
 
